@@ -1,3 +1,19 @@
+# Reservation App
+
+### What I have used:
+- react create app with react version 18.
+- used mockup data as file inside public folder and reading it using fetch.
+- ant design library for UI.
+- date-fns for date/time formatting (better than momentjs performance with tree-shaking).
+
+### Files structure:
+- src/components: contain all smallest component in the app  
+  - ReservationFilters.js -> contains filter inputs and clear button.
+  -  ReservationList.js -> contain table for viewing reservations.
+- src/view: contain the MainLayout.js file which define the layout and grid for the container of page.
+- src/utils: renderData.js hold some functions and data objects for render columns in table and inputs with some icons and badge for better UX beside function for filtering.
+- src/App.js: holds the main render for MainLayout component.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
