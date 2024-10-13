@@ -2,7 +2,7 @@
 
 ### What I have used:
 - react create app with react version 18.
-- used mockup data as file inside public folder and reading it using fetch.
+- used mockup data as file inside public folder and reading it using fetch (NOTE: I had to change some data related to dates in the mockup data to be in the future).
 - ant design library for UI.
 - date-fns for date/time formatting (better than momentjs performance with tree-shaking).
 
